@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"tsc",
+    "build": "tsc",
     "prestart": "npm run build",
     "start": "node dist/server.js"
   },
@@ -20,6 +20,10 @@
   "homepage": "https://github.com/sidhi-sid/Medium-Clone#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "typeorm": "^0.2.29",
     "typescript": "^4.1.3"
   },
   "devDependencies": {
